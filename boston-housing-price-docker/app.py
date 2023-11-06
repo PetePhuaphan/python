@@ -4,7 +4,7 @@ import os
 import pickle
 
 # Load the pickled model
-with open('customer_satisfaction/model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 st.markdown(
